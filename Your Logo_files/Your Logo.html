@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://192.168.18.67:5500/course/Yourlogo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Your Logo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Your Logo_files/css2" rel="stylesheet">
+    <style>
+      body {
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+      #TopHeader {
+        background-color: #ff7101;
+        margin-bottom: -15px;
+      }
+      #Container1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Noto Sans", sans-serif;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        justify-content: space-around;
+      }
+      .Header_Image_Logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 13px;
+      }
+      .Header_Image_Logo > h1 {
+        color: white;
+        font-weight: 900;
+      }
+      .Header_Image_Logo > img {
+        width: 60px;
+        height: 60px;
+      }
+      #Container1 > nav {
+        position: relative;
+        left: -50px;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+      }
+      #Container1 > nav > a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+      #Container1 div:last-child img {
+        height: 30px;
+        width: 120px;
+      }
+      #Header_Bottom {
+        background-color: #ececec;
+        height: 30px;
+        font-family: "Noto Sans", sans-serif;
+      }
+      #Header_Bottom > div {
+        width: 100%;
+        max-width: 75%;
+        margin: auto;
+      }
+      #Header_Bottom > div > p {
+        color: #ff7101;
+        padding-top: 3px;
+      }
+      .Main_Heading_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
+        height: 440px;
+        background-color: #27bec5;
+        font-family: "Noto Sans", sans-serif;
+        position: relative;
+        height: fit-content;
+        margin-top: 10px;
+      }
+      .Main_Heading_div div:first-child {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 0;
+        top: 0;
+      }
+      .Main_Heading_div div:first-child > img:first-child {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: -25px;
+      }
+      .Main_Heading_div div:first-child > img:last-child {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: -20px;
+      }
+      .Main_Heading_div div:last-child {
+        width: 100%;
+        max-width: 50%;
+      }
+      .Main_Heading_div div:last-child > img {
+        height: 380px;
+      }
+      .Main_Heading_div div:last-child {
+        padding-top: 30px;
+      }
+      .Main_Heading_all_Text {
+        padding-top: 20px;
+      }
+      .Main_Heading_all_Text {
+        width: 100%;
+        max-width: 30%;
+      }
+      .Main_Heading_all_Text > h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 45px;
+      }
+      .Main_Heading_all_Text h1:first-child {
+        margin-bottom: 0;
+      }
+      .Main_Heading_all_Text h1:nth-child(2) {
+        margin-top: 0;
+      }
+      .Main_Heading_all_Text > p {
+        color: white;
+        padding-bottom: 20px;
+      }
+      .Main_Heading_all_Text > a {
+        color: white;
+        text-decoration: none;
+      }
+      .Main_heading_bottom_grey {
+        background-color: #ececec;
+        height: 30px;
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      #Container3 {
+        background-color: #e6e6e6;
+        height: 400px;
+      }
+      .Bottom_Cards_Div {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+      .Bottom_Cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+        font-family: "Noto Sans", sans-serif;
+        width: 100%;
+        max-width: 250px;
+        height: 330px;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 0px 5px 8px #d8d8d8;
+        margin-top: 30px;
+      }
+      .Bottom_Cards > img {
+        height: 90px;
+        width: 120px;
+        margin-top: 25px;
+      }
+      .Bottom_Cards > h2 {
+        color: #27bec5;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .Bottom_Cards > p {
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 0;
+      }
+      .Bottom_Cards > button {
+        background-color: #27bec5;
+        border: 1px solid #27bec5;
+        padding: 13px 25px 13px 25px;
+        color: white;
+        position: absolute;
+        bottom: -18px;
+        box-shadow: 0px 5px 8px #d8d8d8;
+      }
+      #bottomFooter {
+        background-color: #ff7101;
+        margin-top: 50px;
+        height: 120px;
+      }
+      #Container4 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        font-family: "Noto Sans", sans-serif;
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
+        justify-content: space-between;
+      }
+      #Container4 div:first-child {
+        margin-top: 10px;
+      }
+      #Container4 div:first-child > img {
+        height: 30px;
+        width: 120px;
+      }
+      #Container4 > nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      #Container4 > nav > a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+      #Container4 div:last-child {
+        margin-top: 10px;
+      }
+      #Container4 div:last-child > p {
+        color: white;
+        font-size: 13px;
+        text-align: end;
+      }
+      #Container4 div:last-child > p:first-child {
+        margin-bottom: -5px;
+      }
+      #Container4 div:last-child > p:nth-child(2) {
+        margin-bottom: -7px;
+      }
+      #Footer_end {
+        background-color: #e6e6e6;
+        height: 50px;
+      }
+      #Container5 {
+        font-family: "Noto Sans", sans-serif;
+        color: gray;
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+        max-width: 78%;
+        margin: auto;
+        gap: 20px;
+        padding-top: 3px;
+      }
+      .triangle {
+        position: relative;
+        left: 10%;
+        width: 0;
+        border-right: 10px solid transparent;
+        border-top: 15px solid #ececec;
+        border-left: 10px solid transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="TopHeader">
+      <div id="Container1">
+        <div class="Header_Image_Logo">
+          <img src="./Your Logo_files/WhatsApp Image 2025-10-24 at 03.51.59_618e80a8.jpg">
+          <h1>YOUR LOGO</h1>
+        </div>
+        <nav>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Home</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">About</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Services</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Contact</a>
+        </nav>
+        <div>
+          <img src="./Your Logo_files/3 icons.jpg">
+        </div>
+      </div>
+    </header>
+    <header id="Header_Bottom">
+      <div>
+        <p>HOME/</p>
+      </div>
+    </header>
+    <div class="triangle"></div>
+    <div class="Container2">
+      <div class="Main_Heading_div">
+        <div>
+          <img src="./Your Logo_files/arrow1.png">
+          <img src="./Your Logo_files/arrow 2.png">
+        </div>
+        <div class="Main_Heading_all_Text">
+          <h1>Main heading</h1>
+          <h1>example</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            impedit laboriosam molestiae ducimus rerum suscipit error eos
+            perspiciatis magnam? Temporibus, ad architecto illum quas blanditiis
+            labore corporis sequi eius dolore?
+          </p>
+
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Read More</a>
+        </div>
+        <div>
+          <img src="./Your Logo_files/Screenshot 2025-10-24 051714.png">
+        </div>
+      </div>
+    </div>
+    <div class="Main_heading_bottom_grey"></div>
+    <section id="Container3">
+      <div class="Bottom_Cards_Div">
+        <div class="Bottom_Cards">
+          <img src="./Your Logo_files/icon1.png">
+          <h2>TITLE 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="Bottom_Cards">
+          <img src="./Your Logo_files/icon2.png">
+          <h2>TITLE 2</h2>
+          <p>
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="Bottom_Cards">
+          <img src="./Your Logo_files/icon3.png">
+          <h2>TITLE 3</h2>
+          <p>
+            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+            eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+            eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+            feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="Bottom_Cards">
+          <img src="./Your Logo_files/icon4.png">
+          <h2>TITLE 4</h2>
+          <p>
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+            libero venenatis faucibus. Nullam quis ante.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+    <footer id="bottomFooter">
+      <div id="Container4">
+        <div class="Footer_Image_Image">
+          <img src="./Your Logo_files/3 icons.jpg">
+        </div>
+        <nav>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Home</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">About</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Services</a>
+          <a href="http://192.168.18.67:5500/course/Yourlogo.html#">Contact</a>
+        </nav>
+        <div>
+          <p>+4475 000 0000</p>
+          <p>0800 000 0000</p>
+          <p>infor@yourcompany.co.uk</p>
+        </div>
+      </div>
+    </footer>
+    <footer id="Footer_end">
+      <div id="Container5">
+        <p>The Company Warehouse Ltd.</p>
+        <p>Registered Company Number: 123456</p>
+        <p>
+          Registered Address: 2nd Floor, 43 Broomfield Road, Chelmsford, Essex,
+          CM1 1SY
+        </p>
+      </div>
+    </footer>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
